@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python with Sudo",
+            "type": "shell",
+            "command": "sudo python3 ${file}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        }
+    ]
+}
